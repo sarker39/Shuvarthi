@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_evetease"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thenewboston.trial.evetease"
+    android:background="@drawable/mm">
+
+    <Button
+        android:text="Constitutional  Act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/button16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:text="Emergency Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/calll"
+        android:layout_below="@+id/button18"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignStart="@+id/button18"
+        android:background="#F00"
+        android:layout_alignRight="@+id/button20"
+        android:layout_alignEnd="@+id/button20"
+        android:onClick="emergency_onClick"
+        />
+
+    <Button
+        android:text="Law Enforcement Agencies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/button17"
+        android:layout_below="@+id/button16"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClicklaw" />
+
+    <Button
+        android:text="Live Help:Police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/button18"
+        android:layout_below="@+id/button17"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Information Centre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button20"
+        android:layout_below="@+id/calll"
+        android:layout_alignRight="@+id/button16"
+        android:layout_alignEnd="@+id/button16" />
+
+    <Button
+        android:text="Prevention Centre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button21"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button20"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

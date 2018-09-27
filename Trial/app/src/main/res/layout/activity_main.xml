@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.thenewboston.trial.MainActivity"
+    android:background="@drawable/vv">
+
+    <Button
+        android:text="LOG IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:onClick="onClick"
+        android:background="?android:attr/colorBackground" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_marginTop="128dp"
+        android:id="@+id/editText"
+        android:textAlignment="center"
+        tools:text="Phone Number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:hint="Phone Number"
+        android:textColorHint="@android:color/black"
+        android:textSize="28sp"
+        android:textCursorDrawable="@android:color/black" />
+</RelativeLayout>

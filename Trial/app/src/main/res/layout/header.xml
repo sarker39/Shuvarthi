@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Station"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#c0c0c0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textView1"
+        android:layout_weight="33.3"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="Address"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#c0c0c0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textView2"
+        android:layout_weight="33.3"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="Contact"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#c0c0c0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textView3"
+        android:layout_weight="33.3"/>
+
+
+
+</LinearLayout>
